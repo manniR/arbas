@@ -1,0 +1,24 @@
+/* 
+    Document   : admin-ideenlandkarte
+    Created on : Feb 10, 2010, 5:10:00 PM
+    Author     : macbookpro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+/*  UTILITY  */
+.right{float:right;}
+.left{float:left;}
+.clear{clear:both;}
+
+
+.ideenlandkarte-entry {background:gray; position:relativ; overflow: hidden; margin-bottom: 10px}
+.ideenlandkarte-entry p {}
+.ideenlandkarte-entry h3{float:left;margin:0; width:60%;}
+.details {float:right; width:40%;}
+.ideenlandkarte-entry span{display:block;font-size:11px;}

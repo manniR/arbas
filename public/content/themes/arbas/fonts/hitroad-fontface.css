@@ -1,0 +1,12 @@
+/* font faces */
+@font-face {
+    font-family: 'HitTheRoadRegular';
+    src: url('fonts/hitroad-webfont.eot');
+    src: url('fonts/hitroad-webfont.eot?iefix') format('eot'),
+    url('fonts/hitroad-webfont.woff') format('woff'),
+    url('fonts/hitroad-webfont.ttf') format('truetype'),
+    url('fonts/hitroad-webfont.svg#webfontAhqUa3rg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

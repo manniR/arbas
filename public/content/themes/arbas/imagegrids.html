@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {
+                /*padding-top: 50px;
+                padding-bottom: 20px;*/
+            }
+        </style>
+        <!--<link rel="stylesheet" href="css/bootstrap-theme.min.css">-->
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+<div class="container">
+  <h1>Bootstrap 3 Responsive Image Grid</h1>
+  <hr>
+  
+  <h2>Non-stacking grid example<p class="lead">Uses the tiny <code>.col-*</code> grid classes</p></h2>
+  <p>This layout displays <b>4 images per row</b>. Bootstrap 3 sizes images "responsively" using the <code>img-responsive</code> CSS class. As browser width shrinks, the columns and images scale down accordingly...</p>
+  <div class="row">
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+     <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-xs-3">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+  </div>
+  <p>This demonstrates a completely percentage-based responsive (A.K.A. "fluid") layout. The negative aspect of this layout is that it starts to look like the last line of an eye chart at smaller widths.</p>
+  <p>Since the "eye chart" aspect isn't really a good thing, let's see how we can use Bootstrap's three powerful grid sizes to improve our design...</p>
+  <br><br>
+  <hr>
+  <h2>4-3-2 grid example<p class="lead">Uses all 3 grid sizes</p></h2>
+  <p>Rather that simply scaling down image size proportionally as the browser size shrinks, a better responsive design would adjust and re-layout the image grid accordingly. The following example uses this technique. This layout shows <b>4 columns</b> on large (ie: desktop) displays. As screen width shrinks on smaller (ie: tablets), <b>3 columns</b> are displayed. At the smallest widths (ie: mobile phones), only <b>2 columns</b> are displayed.</p>
+  <div class="row">
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <aimg src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail pull-left">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="img/02.jpg" class="thumbnail gallery">
+             <img src="img/02_thumb.jpg" class="img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-3 col-sm-4 col-xs-6">
+        <a href="#" class="thumbnail">
+             <img src="http://placehold.it/350x150" class="img-responsive">
+        </a>
+    </div>
+  </div>
+  <p>This improved responsive layout is achieved using Bootstrap's tiny, small and large grid sizes. By combining use of the <code>col-*</code>,<code>col-sm-*</code> and <code>col-lg-*</code> CSS class. Just like before, the images scale down accordingly, but now our column layout adjusts accordingly too. The
+  column adjustment occurs at pre-defined "breakpoints" that are defined on the Bootstrap CSS media queries. These breakpoints align with common device sizes and widths. 
+  </p>
+  <p>Behold the power of the Bootstrap 3's <b>mobile first</b> grid! Now we can come up with even more combinations.</p>
+  <br><br>
+  
+    <hr>
+  
+  <h2>6-4-3 grid example<p class="lead">6 columns on desktop, 4 columns on tablets, 3 columns on phones</p></h2>
+  <div class="row">
+    <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+    <div class="col-lg-2 col-sm-3 col-xs-4">
+        <a href="#">
+             <img src="http://placehold.it/200x200" class="thumbnail img-responsive">
+        </a>
+    </div>
+  </div>
+  <hr>
+  <br><br>
+  
+  
+  <h2>3-2-1 grid example<p class="lead">3 columns on desktop, 2 columns on tablets, 1 columns on phones</p></h2>
+  <div class="row">
+    <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+     <div class="col-lg-4 col-sm-6 col-xs-12">
+        <a href="#">
+             <img src="http://placehold.it/800x600" class="thumbnail img-responsive">
+        </a>
+    </div>
+  </div>
+  <hr>
+    <br><br>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/jquery.lightbox.min.js"></script>
+
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+</body>
+</html>
+

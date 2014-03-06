@@ -1,0 +1,11 @@
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 190
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 174
+[23-Jan-2014 15:29:31 UTC] PHP Notice:  Undefined index: ID in /Users/macpro/Sites/git-test/public/content/plugins/testplug/index.php on line 175
+[23-Jan-2014 15:42:49 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 771
+[23-Jan-2014 15:42:49 UTC] PHP Notice:  Trying to get property of non-object in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 304
+[23-Jan-2014 15:42:49 UTC] PHP Notice:  Undefined variable: singular in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 789
+[23-Jan-2014 15:42:52 UTC] PHP Warning:  extract() expects parameter 1 to be array, null given in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 771
+[23-Jan-2014 15:42:52 UTC] PHP Notice:  Trying to get property of non-object in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 304
+[23-Jan-2014 15:42:52 UTC] PHP Notice:  Undefined variable: singular in /Users/macpro/Sites/git-test/public/site/wp-admin/includes/class-wp-list-table.php on line 789
+[31-Jan-2014 16:18:36 UTC] PHP Notice:  Theme without header.php is <strong>deprecated</strong> since version 3.0 with no alternative available. Please include a header.php template in your theme. in /Users/macpro/Sites/freiestheater.at/public/site/wp-includes/functions.php on line 2957
+[31-Jan-2014 16:18:36 UTC] PHP Fatal error:  Call to undefined function of_get_option() in /Users/macpro/Sites/freiestheater.at/public/content/themes/320-child/index.php on line 4

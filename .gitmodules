@@ -1,3 +1,6 @@
 [submodule "public/site"]
 	path = public/site
 	url = https://github.com/WordPress/WordPress
+[submodule "public/content/themes/320press"]
+	path = public/content/themes/320press
+	url = https://github.com/320press/wordpress-bootstrap

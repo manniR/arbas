@@ -20,6 +20,18 @@
     #sidebar1 {display:none;}
 }
 
+/* ==============================
+	FARBEN
+   ============================== */
+
+.red 		{background:#AA0014} /*ARBAS*/
+.orange 	{background:#FBA822} /*JUGENDCOACHING*/
+.blue		{background:#1998D9} /*ARBEITSASSISTENZ*/
+.green	{background:#94CD28} /*JUGENDCOACHNIG*/
+.purple	{background:#573196} /*BERUFSAUSBIDUNG*/
+
+
+
 
 /*center navbar*/
 @media (min-width: 768px) {

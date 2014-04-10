@@ -29,6 +29,12 @@ add_image_size( 'wpbs-featured', 780, 300, true );
 add_image_size( 'wpbs-featured-home', 970, 311, true);
 add_image_size( 'wpbs-featured-carousel', 970, 400, true);
 
+// Add Thumbnail Support
+
+add_theme_support('post-thumbnails', array ('post','produktion','presse','custom_post'));
+
+
+
 /*
 to add more sizes, simply copy a line from above
 and change the dimensions & name. As long as you
